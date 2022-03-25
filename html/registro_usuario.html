@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/verificacion.js"></script>
+</head>
+
+<body>
+
+
+
+    <div class="col-lg-12 text-center bs-primary" style="background-color: #bfa2db;">
+        <img src="../img/csjd-servicios-cat-saludMental.png" class="img-fluid w-25">
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light px-5" style="background-color: #d3bcf6">
+
+        <img src="../img/logo_colegio.png" alt="" class="col-xl-1 col-lg-1 col-sm-2 col-lg-2 col-3 navbar-brand">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                <a class="nav-link" href="../html/informacion.html">Infomacion</a>
+                <a class="nav-link" href="../html/registro_usuario.html">registrarte</a>
+
+
+
+
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div class="row">
+
+            <h1 class="text-center mt-4 d-flex justify-content-center p-3">Registro estudiantes</h1>
+        </div>
+        <div
+            class="col-xl-12 col-lg-12 col-sm-12 col-lg-12 col-xs-12 col-12 my-5 p-2 row d-flex justify-content-center">
+            <div class="my-2 p-3" style="max-width: 50rem;">
+                <div class="card-header" style="background-color:#f0d9ff;">
+                    <div class="card-body text-dark">
+                        <form class="px-5" id="formularioRegistro" method="post" id="formularioRegistro">
+                            <div class="form-group ">
+                                <label class="mb-2" for="Nombre estudiante">Nombre(s)</label>
+                                <input class="form-control" type="text" name="nombres" id="nombres"
+                                    placeholder="Ingrese su Nombre">
+                            </div>
+                            <div class="form-group mt-4">
+                                <label class="mb-2" for="Apellido estudiante">Apellido(s)</label>
+                                <input class="form-control" type="text" name="Apellidos" id="Apellidos"
+                                    placeholder="Ingrese su Apellido">
+                            </div>
+                            <div class="form-group mt-4">
+                                <label class="mb-2" for="usuario">Usuario</label>
+                                <input class="form-control" type="text" name="Usuario" id="Usuario"
+                                    placeholder="Ingrese su Usuario">
+                            </div>
+                            <div class="form-group mt-4">
+                                <label class="mb-2" for="password">Contraseña</label>
+                                <input class="form-control" type="password" name="Contraseña" id="Contraseña"
+                                    placeholder="Ingrese su contraseña">
+
+                            </div>
+                            <div class="form-group mt-4">
+                                <label class="mb-2" for="password">Repetir
+                                    Contraseña</label>
+                                <input class="form-control" type="password" name="Contraseña" id="Contraseña"
+                                    placeholder="Repita su contraseña">
+                            </div>
+
+                            <div class="form-group mt-4">
+                                <label class="enunciado_registro" for="Email">Correo electronico</label>
+                                <input class="form-control" type="email" name="Correo" id="Correo"
+                                    placeholder="Ingrese su correo">
+
+                            </div>
+
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary mt-3">registrate</button>
+                            </div>
+                        </form>
+                        <div class="mt-4 text-center text-dark">
+
+                            <h3 class="text-center m-3"> Estoy de acuerdo con</h3>
+                            <a href="" class="text-primary">terminos y Condiciones</a>
+
+                            <a href="" class="text-decoration-none text-dark">¿Ya tego cuenta de usuario?</a>
+                        </div>
+                        </section>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+        <div class="container">
+            <div class="table-responsive" >
+                <table class="table table-hover table-border table-dark table-sm" id="tabla">
+                    <thead class="text-secondary">
+                        <tr >
+                            <th >Nombre</th>
+                            <th>Apellido</th>
+                            <th>Usuario</th>
+                            <th>Contraseña</th>
+                            <th>Correo electronico</th>
+                            <th >Eliminar</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+
+
+
+
+
+
+
+    <footer class="text-center text-black pb-1" style="background-color: #bfa2db;">
+        <div class="p-3">
+            <p class="d-flex justify-content-center align-items-center">
+                <span class="fs-2">Contacto</span>
+            </p>
+        </div>
+        <div class="text-center mb-4">
+            <p class="text-black">edconrado@itsa.edu.co, eschoonewolff@itsa.edu.co, kelly@itsa.edu.co </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
+
+<script src="../js/registro_usuario.js"></script>
